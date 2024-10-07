@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=scr, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const nombreProducto = "pantalones";
+        const precioUnitario = "16000"
+        let cantidadDeseada;
+
+    cantidadDeseada = prompt("ingrese la cantidad de;" + nombreProducto + "($" + precioUnitario + ") que desea comprar:")
+    
+    const costoTotal = precioUnitario * cantidadDeseada
+
+    alert("usted compro "+ cantidadDeseada + " " + nombreProducto + ". " + "El costo total es: $" + costoTotal)
+    alert(`Usted compro ${cantidadDeseada} ${nombreProducto}. El costo total es: $${costoTotal}`)
+    </script>
+</body>
+</html>
